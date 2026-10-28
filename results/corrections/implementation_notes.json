@@ -1,0 +1,16 @@
+{
+  "state": "CORRECTED_WITHOUT_TEST_BASED_TUNING",
+  "changes": [
+    {
+      "stage": "Before test evaluation",
+      "change": "Recognize a terminal calendar-month-end date rather than always treating the last source date as non-month-end",
+      "effect": "Validation outputs and selected parameters unchanged; tested policies do not use calendar correction"
+    },
+    {
+      "stage": "Independent validation verifier",
+      "change": "Parse nullable delay values serialized as decimal CSV strings",
+      "failure": "ValueError parsing 2.0 as an integer string",
+      "effect": "No analysis values or source data changed"
+    }
+  ]
+}

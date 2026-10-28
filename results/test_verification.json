@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "phase": "test",
+  "checks": [
+    "Original JSON hashes, date uniqueness and exact joins reconcile",
+    "Percentage-rate to basis-point conversion independently checked",
+    "Every exported monitor center, scale, calendar correction, EWMA and flag independently recomputed",
+    "Every controlled intervention and detection delay independently recomputed",
+    "Frozen test outcomes checked"
+  ],
+  "limits": "Retrospective final snapshot and dependent synthetic interventions; no live-vintage or economic false-positive-rate proof"
+}
