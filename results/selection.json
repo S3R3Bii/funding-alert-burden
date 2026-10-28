@@ -1,0 +1,179 @@
+{
+  "frozen_utc": "2026-10-28T19:17:32.267933+00:00",
+  "selected_model": "w30_a0.6_cal0",
+  "comparator": "w60_a0.3_cal0",
+  "selected_parameters": {
+    "w30_a0.6_cal0": {
+      "name": "w30_a0.6_cal0",
+      "window": 30,
+      "alpha": 0.6,
+      "calendar": false,
+      "threshold": 6.0,
+      "validation_days": 498,
+      "background_alerts": 0,
+      "background_rate": 0.0,
+      "persistent_cases": 12,
+      "persistent_new_alerts": 10,
+      "persistent_fraction": 0.8333333333333334,
+      "persistent_median_delay": 2.0,
+      "transient_cases": 12,
+      "transient_new_alerts": 0,
+      "transient_fraction": 0.0,
+      "transient_median_delay": null,
+      "objective": 0.8333333333333334,
+      "elapsed_seconds": 0.028979299997445196,
+      "status": "completed"
+    },
+    "w60_a0.3_cal0": {
+      "name": "w60_a0.3_cal0",
+      "window": 60,
+      "alpha": 0.3,
+      "calendar": false,
+      "threshold": 6.0,
+      "validation_days": 498,
+      "background_alerts": 0,
+      "background_rate": 0.0,
+      "persistent_cases": 12,
+      "persistent_new_alerts": 5,
+      "persistent_fraction": 0.4166666666666667,
+      "persistent_median_delay": 3.0,
+      "transient_cases": 12,
+      "transient_new_alerts": 0,
+      "transient_fraction": 0.0,
+      "transient_median_delay": null,
+      "objective": 0.4166666666666667,
+      "elapsed_seconds": 0.02954620000673458,
+      "status": "completed"
+    }
+  },
+  "candidates": [
+    {
+      "name": "w30_a0.1_cal0",
+      "window": 30,
+      "alpha": 0.1,
+      "calendar": false
+    },
+    {
+      "name": "w30_a0.1_cal1",
+      "window": 30,
+      "alpha": 0.1,
+      "calendar": true
+    },
+    {
+      "name": "w30_a0.3_cal0",
+      "window": 30,
+      "alpha": 0.3,
+      "calendar": false
+    },
+    {
+      "name": "w30_a0.3_cal1",
+      "window": 30,
+      "alpha": 0.3,
+      "calendar": true
+    },
+    {
+      "name": "w30_a0.6_cal0",
+      "window": 30,
+      "alpha": 0.6,
+      "calendar": false
+    },
+    {
+      "name": "w30_a0.6_cal1",
+      "window": 30,
+      "alpha": 0.6,
+      "calendar": true
+    },
+    {
+      "name": "w60_a0.1_cal0",
+      "window": 60,
+      "alpha": 0.1,
+      "calendar": false
+    },
+    {
+      "name": "w60_a0.1_cal1",
+      "window": 60,
+      "alpha": 0.1,
+      "calendar": true
+    },
+    {
+      "name": "w60_a0.3_cal0",
+      "window": 60,
+      "alpha": 0.3,
+      "calendar": false
+    },
+    {
+      "name": "w60_a0.3_cal1",
+      "window": 60,
+      "alpha": 0.3,
+      "calendar": true
+    },
+    {
+      "name": "w60_a0.6_cal0",
+      "window": 60,
+      "alpha": 0.6,
+      "calendar": false
+    },
+    {
+      "name": "w60_a0.6_cal1",
+      "window": 60,
+      "alpha": 0.6,
+      "calendar": true
+    },
+    {
+      "name": "w120_a0.1_cal0",
+      "window": 120,
+      "alpha": 0.1,
+      "calendar": false
+    },
+    {
+      "name": "w120_a0.1_cal1",
+      "window": 120,
+      "alpha": 0.1,
+      "calendar": true
+    },
+    {
+      "name": "w120_a0.3_cal0",
+      "window": 120,
+      "alpha": 0.3,
+      "calendar": false
+    },
+    {
+      "name": "w120_a0.3_cal1",
+      "window": 120,
+      "alpha": 0.3,
+      "calendar": true
+    },
+    {
+      "name": "w120_a0.6_cal0",
+      "window": 120,
+      "alpha": 0.6,
+      "calendar": false
+    },
+    {
+      "name": "w120_a0.6_cal1",
+      "window": 120,
+      "alpha": 0.6,
+      "calendar": true
+    }
+  ],
+  "threshold_grid": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "objective": "Persistent new-alert fraction minus transient new-alert fraction; then lower background rate and name",
+  "validation_dates": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "test_dates": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "information_boundary": "Current historical snapshot; forward-only adaptive history; not initial publication vintages"
+}
