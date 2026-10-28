@@ -1,5 +1,7 @@
 # Funding alerts: persistence versus review burden
 
+[Research manuscript: PDF and LaTeX](paper/README.md)
+
 **Finding:** the validation-selected monitor detects **8 of 17** five-observation, +10 basis-point interventions on the protected later period, compared with **3 of 17** for the fixed comparator. Both make zero new persistent calls in 17 one-observation interventions. The selected rule flags one of 686 unmodified days. It still misses nine persistent scenarios, so a small review queue alone is an inadequate success criterion.
 
 The decision is how to screen funding-spread disturbances for review while distinguishing transient changes from sustained ones. The study uses measured public reference rates, then applies **explicitly synthetic interventions** to compare fixed monitoring policies. The next step is saved publication vintages and independently adjudicated episodes before setting an operating review budget.
@@ -56,4 +58,4 @@ A verifier initially expected an integer delay string while CSV represented null
 
 © 2026 Federal Reserve Bank of New York. Content from the New York Fed subject to the [Terms of Use](https://www.newyorkfed.org/privacy/termsofuse). Original JSON and source identifiers remain unchanged. Spreads, monitoring scores, figures and synthetic interventions are this project's derived analyses; no endorsement is implied. See [source and attribution details](SOURCES.md).
 
-This is independent, AI-assisted research. It makes no live trading, profitability, economic false-positive or validated crisis-detection claim. Manuscript drafts remain private and outside Git history. Public code, source snapshots, complete trials, figures and verification evidence support the scoped monitoring result.
+This is independent, AI-assisted research. It makes no live trading, profitability, economic false-positive or validated crisis-detection claim. The independent research manuscript is available in [PDF and LaTeX](paper/README.md); it has not been peer reviewed. Public code, source snapshots, complete trials, figures and verification evidence support the scoped monitoring result.

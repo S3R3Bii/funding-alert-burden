@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-28T22:44:10.157307+00:00",
+  "status": "PASS_SCOPED_GITHUB_EDITION",
+  "grade": 4,
+  "pages": 4,
+  "criteria": {
+    "correctness": "PASS: all numerical tokens match the reviewed source and all referenced figure bytes match",
+    "rendered_layout": "PASS: all current pages inspected in rendered review sheets; no clipped text, overlap or missing figures observed",
+    "privacy": "PASS: source and extracted PDF text scanned; no attachments or JavaScript; only explicit reviewed files included",
+    "scope": "PASS: independent study only; not peer reviewed; formal-publication projects excluded"
+  },
+  "base_analysis_commit": "ffe0fa8d91549214d6f25e2e121c1efddc46eb75",
+  "public_files_sha256": {
+    "paper/main.tex": "00b63239dd0762d599595bf76f55c75265e427600ed8d4ceee4773914e51e2a3",
+    "paper/manuscript.pdf": "c749ab874b2f978085104d6731db0c5c65c3ae0c590d583c9e35477801a36756",
+    "paper/images/decision-summary.pdf": "9f0deaf012d715c753be2927498c18a6ec8f5d011bbed11eabcb2bdbf0886573"
+  },
+  "limitations": "This is a publication-format check. It reuses unchanged scientific evidence and does not establish peer review, novelty, deployment or universal secret detection."
+}
