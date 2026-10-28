@@ -1,0 +1,43 @@
+{
+  "evaluated_utc": "2026-10-28T19:21:41.505931+00:00",
+  "selected_model": "w30_a0.6_cal0",
+  "comparator": "w60_a0.3_cal0",
+  "metrics": [
+    {
+      "model": "w30_a0.6_cal0",
+      "days": 686,
+      "background_alerts": 1,
+      "background_rate": 0.0014577259475218659,
+      "persistent_cases": 17,
+      "persistent_new_alerts": 8,
+      "persistent_fraction": 0.47058823529411764,
+      "persistent_median_delay": 1.5,
+      "transient_cases": 17,
+      "transient_new_alerts": 0,
+      "transient_fraction": 0.0,
+      "transient_median_delay": null,
+      "objective": 0.47058823529411764
+    },
+    {
+      "model": "w60_a0.3_cal0",
+      "days": 686,
+      "background_alerts": 0,
+      "background_rate": 0.0,
+      "persistent_cases": 17,
+      "persistent_new_alerts": 3,
+      "persistent_fraction": 0.17647058823529413,
+      "persistent_median_delay": 3.0,
+      "transient_cases": 17,
+      "transient_new_alerts": 0,
+      "transient_fraction": 0.0,
+      "transient_median_delay": null,
+      "objective": 0.17647058823529413
+    }
+  ],
+  "limits": [
+    "Controlled +10 basis-point interventions, not observed crises",
+    "Dependent cases share adaptive history; no independent-case confidence interval claimed",
+    "Current historical snapshot may include revisions; no live-vintage availability proof",
+    "Unlabeled background alert rate is review burden, not measured economic false positives"
+  ]
+}

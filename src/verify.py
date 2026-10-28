@@ -87,6 +87,9 @@ def verify(phase):
             counts[e['scenario']].append(bool(new))
         for label,values in counts.items():
             close(row[label+'_cases'],len(values));close(row[label+'_new_alerts'],sum(values));close(row[label+'_fraction'],sum(values)/len(values))
+            delays=[int(float(e['delay_observations'])) for e in selected if e['scenario']==label and truth(e['new_persistent_alert'])]
+            if delays:close(row[label+'_median_delay'],statistics.median(delays))
+            else:assert row[label+'_median_delay']==''
         close(row['objective'],sum(counts['persistent'])/len(counts['persistent'])-sum(counts['transient'])/len(counts['transient']))
         if phase=='validation':
             eligible=[]
