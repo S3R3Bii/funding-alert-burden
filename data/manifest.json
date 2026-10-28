@@ -1,0 +1,18 @@
+[
+  {
+    "rate": "sofr",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2018-04-02&endDate=2026-09-30",
+    "file": "data/sofr.json",
+    "sha256": "44fd4b6b9f2b5472cd8dcdefb9e8061b23d9eb566ea09450c2273a6c0b2a754d",
+    "rows": 2123,
+    "retrieved_utc": "2026-10-28T19:14:26.360987+00:00"
+  },
+  {
+    "rate": "effr",
+    "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2018-04-02&endDate=2026-09-30",
+    "file": "data/effr.json",
+    "sha256": "f67f77c65501e2371c1f5c1651c5c091ab43e50fb8ea1b7097a572b11a6f8121",
+    "rows": 2135,
+    "retrieved_utc": "2026-10-28T19:14:27.070758+00:00"
+  }
+]
